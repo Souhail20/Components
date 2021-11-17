@@ -1,38 +1,20 @@
 .App {
+  background-image:url('data:image/jpeg;base64,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');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat-x;
+  width: 100%; 
+}
+h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+  width: 450px;
+  height: 450px;
+  transform: translate(120%, 1%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.adresscont{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
+  font-size: larger;
 }
